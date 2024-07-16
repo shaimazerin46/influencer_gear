@@ -117,6 +117,7 @@ body{
     max-width: 1047px;
     margin: 0 auto;
     background-color: #fefefe;
+    
 }
 .popular_collection_heading{
     margin: 1.8rem;
@@ -128,6 +129,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-bottom: 20px;
 }
 .popular_collecion_img_box{
    padding: 10px;
@@ -152,6 +154,15 @@ body{
     width: 1rem;
 }
 .popular_collecion_img_box span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.see_more{
+   float: right;
+}
+.see_more a{
+    text-decoration: none;
+    color: #E02C6D;
     font-size: 1rem;
     font-weight: bold;
 }
