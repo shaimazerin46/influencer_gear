@@ -109,3 +109,28 @@ body{
 }
 
 /* responsive style */
+@media screen and (max-width: 576px){
+    #header{
+        padding: 0px 10px;
+    }
+    .navbar, .navlink, .banner_content{
+        flex-direction: column;
+    }
+    .brand_name{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .banner_text, .banner_brand_logo_box{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .camera{
+        padding: 0px;
+    }
+    .banner_brand_logo img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+}
