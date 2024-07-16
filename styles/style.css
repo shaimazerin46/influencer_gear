@@ -6,6 +6,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    
 }
 /* common css */
 .primary_color{
@@ -30,6 +31,9 @@ body{
     color: #E02C6D;
 }
 #header{
+    
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0px 120px;
 }
 .btn{
