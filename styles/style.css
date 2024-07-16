@@ -98,6 +98,7 @@ body{
 }
 .banner_brand_logo_box{
     margin-top: 4.3rem;
+    margin-bottom: 4.3rem;
 }
 .banner_brand_logo{
     padding-top: 2rem;
@@ -107,7 +108,49 @@ body{
 .mr_3{
     margin-right: 4.5rem;
 }
+/* popular collection style */
+.popular_collection{
+    max-width: 1047px;
+    margin: 0 auto;
+    background-color: #fefefe;
+}
+.popular_collection_heading{
+    margin: 1.8rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+.popular_collection_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.popular_collecion_img_box{
+   padding: 10px;
+}
 
+.popular_collection_img_parent{
+    box-shadow: 2px 2px 5px 2px rgb(219, 214, 214);
+    background-color: white;
+    max-width: 329px;
+    border-radius: 16px;
+   
+}
+.popular_p1{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.popular_p2{
+    margin: 1rem 0rem;
+}
+.icon{
+    height: 1rem;
+    width: 1rem;
+}
+.popular_collecion_img_box span{
+    font-size: 1rem;
+    font-weight: bold;
+}
 /* responsive style */
 @media screen and (max-width: 576px){
     #header{
