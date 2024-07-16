@@ -176,4 +176,11 @@ body{
         margin-bottom: 10px;
     }
 
+    .popular_collection_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .popular_collection_img_parent{
+        margin: 0 auto;
+    }
+
 }
