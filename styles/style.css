@@ -73,10 +73,11 @@ body{
 /* banner start */
 .banner_content{
     display: flex;
-    gap: 8.3rem;
+    gap: 8.2rem;
 }
 .banner_text{
     margin-top: 145px;
+    max-width: 500px;
 }
 .banner_p1{
     font-size: 3.25rem;
