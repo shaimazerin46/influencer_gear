@@ -42,7 +42,7 @@ body{
     font-weight: bold;
     background-color: #E02C6D;
     border: none;
-    border-radius: 42px;
+   
 }
 /* nav styles */
 
@@ -54,6 +54,7 @@ body{
 }
 .navlink{
     display: flex;
+    
     gap: 2rem;
     align-items: center;
     
@@ -109,6 +110,8 @@ body{
     margin-bottom: 4.3rem;
 }
 .banner_brand_logo{
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-shadow:  0 -5px 5px -5px #C0CCDA, 0 5px 5px -5px #C0CCDA;
@@ -170,6 +173,68 @@ body{
     font-size: 1rem;
     font-weight: bold;
 }
+
+
+.features_products{
+    margin: 100px 124px 100px 165px;
+    display: flex;
+    gap: 72px;
+}
+.features_image{
+    max-width: 404px;
+    height: 270px;
+}
+.features_image img{
+    width: 100%;
+    height: 100%;
+}
+.features_content{
+    max-width: 610px;
+    height: 224px;
+}
+.features_heading{
+    font-size: 2.37rem;
+    font-weight: bold;
+    color: #0A0826;
+}
+.features_description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+    padding: 16px 0px;
+}
+.border_redi{
+    border-radius: 42px;
+}
+#footer{
+    background-color: #0a0826;
+    color: white;
+}
+.footer_content{
+    max-width: 261px;
+    padding: 50px 0px;
+    height: 139px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer_description, .footer_copyright{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #D9DBE1;
+}
+.footer_icon{
+    display: flex;
+}
+.footer_icon li{
+    list-style: none;
+    padding: 10px 25px;
+    justify-content: space-between;
+}
 /* responsive style */
 @media screen and (max-width: 576px){
     #header{
@@ -200,6 +265,20 @@ body{
     }
     .popular_collection_img_parent{
         margin: 0 auto;
+    }
+    .features_products{
+        margin: 50px 30px 50px 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .features_content{
+       
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .see_more{
+        margin-right: 50px;
     }
 
 }
